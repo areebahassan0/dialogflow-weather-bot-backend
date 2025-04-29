@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 const PORT = 5000;
-const OPENWEATHER_API_KEY = '764c62d233ec68d3729597b75d425848'; // Your API key
+const OPENWEATHER_API_KEY = 'YOUR_API_KEY_HERE'; // Your API key
 
 app.post('/webhook', async (req, res) => {
   const body = req.body;
